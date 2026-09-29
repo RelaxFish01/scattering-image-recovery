@@ -1,0 +1,37 @@
+{
+  "method": "Normalized global ridge inversion",
+  "features": 12544,
+  "transform": "intensity",
+  "validation": [
+    {
+      "mse": 0.000699356256518513,
+      "psnr_mean_db": 32.2622184753418,
+      "ssim_mean": 0.680982659462376,
+      "count": 5000,
+      "regularization": 1.0
+    },
+    {
+      "mse": 0.0006964443600736558,
+      "psnr_mean_db": 32.278743743896484,
+      "ssim_mean": 0.6820620237689132,
+      "count": 5000,
+      "regularization": 10.0
+    },
+    {
+      "mse": 0.0006743075209669769,
+      "psnr_mean_db": 32.4052734375,
+      "ssim_mean": 0.691127845292727,
+      "count": 5000,
+      "regularization": 100.0
+    }
+  ],
+  "holdout": {
+    "mse": 0.0006751452456228435,
+    "psnr_mean_db": 32.359249114990234,
+    "ssim_mean": 0.6912545148081981,
+    "count": 5000
+  },
+  "selected_regularization": 100.0,
+  "test_ground_truth_available": false,
+  "seconds": 32.46584391593933
+}

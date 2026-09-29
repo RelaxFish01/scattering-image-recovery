@@ -1,0 +1,31 @@
+{
+  "test": "Alter only all withheld intensities before the entire reconstruction pipeline",
+  "withheld_detector_count": 512,
+  "maximum_output_change": 0.0,
+  "exactly_equal_outputs": true,
+  "original_fit_residuals": [
+    9.819513908590483e-13,
+    5.333560199397014e-13,
+    5.347221146770331e-13,
+    6.524883172827345e-13
+  ],
+  "changed_fit_residuals": [
+    9.819513908590483e-13,
+    5.333560199397014e-13,
+    5.347221146770331e-13,
+    6.524883172827345e-13
+  ],
+  "original_withheld_residuals": [
+    1.2725742768587844e-12,
+    7.519524824854684e-13,
+    5.18488735019168e-13,
+    7.542061051211968e-13
+  ],
+  "changed_withheld_residuals": [
+    0.8040413856506348,
+    0.7951964139938354,
+    0.7876459360122681,
+    0.7894919514656067
+  ],
+  "original_data_modified": false
+}

@@ -1,0 +1,42 @@
+{
+  "prediction_source": "C:\\Users\\19375\\Desktop\\NEU documents\\26秋学期智能感知与计算成像\\test恢复研究\\physical_recovery\\test_recovered.npy",
+  "speckle_source": "C:\\Users\\19375\\Desktop\\NEU documents\\26秋学期智能感知与计算成像\\test恢复研究\\test_Y.npy",
+  "prediction_shape": [
+    4,
+    28,
+    28
+  ],
+  "prediction_dtype": "float32",
+  "prediction_min": 0.0,
+  "prediction_max": 1.0,
+  "numeric_values_preserved": true,
+  "numpy_layout": "N,H,W; (4,28,28)",
+  "matlab_variable": "X_recovered",
+  "matlab_layout": "H,W,N; (28,28,4)",
+  "recovery_png_display": "Clip to [0,1], multiply by 255, round to uint8; same range for all images.",
+  "speckle_png_display": "Per-image 99.5th percentile display scaling; for visualization only.",
+  "speckle_display_scale_values": [
+    0.02514101006090641,
+    0.03008183278143406,
+    0.039504822343587875,
+    0.03480152040719986
+  ],
+  "native_pngs": [
+    "test_01_recovered_28px.png",
+    "test_02_recovered_28px.png",
+    "test_03_recovered_28px.png",
+    "test_04_recovered_28px.png"
+  ],
+  "enlarged_pngs": [
+    "test_01_recovered_448px.png",
+    "test_02_recovered_448px.png",
+    "test_03_recovered_448px.png",
+    "test_04_recovered_448px.png"
+  ],
+  "overview": "recovered_overview.png",
+  "comparison": "speckle_vs_recovered.png",
+  "numeric_outputs": [
+    "X_recovered.npy",
+    "X_recovered.mat"
+  ]
+}

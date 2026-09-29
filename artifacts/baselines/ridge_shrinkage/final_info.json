@@ -1,0 +1,181 @@
+{
+  "method": "Validation-selected sigmoid intensity shrinkage after ridge",
+  "parameters": {
+    "threshold": 0.1,
+    "softness": 0.02
+  },
+  "validation": {
+    "mse": 0.00040190506842918694,
+    "psnr_mean_db": 34.76853561401367,
+    "ssim_mean": 0.9828549724178806,
+    "count": 5000
+  },
+  "holdout": {
+    "mse": 0.00040168437408283353,
+    "psnr_mean_db": 34.73537063598633,
+    "ssim_mean": 0.9826395231593739,
+    "count": 5000
+  },
+  "parameter_search": [
+    {
+      "threshold": 0,
+      "softness": 0.005,
+      "mse": 0.0006699885707348585
+    },
+    {
+      "threshold": 0,
+      "softness": 0.01,
+      "mse": 0.0006531208637170494
+    },
+    {
+      "threshold": 0,
+      "softness": 0.02,
+      "mse": 0.000607294321525842
+    },
+    {
+      "threshold": 0,
+      "softness": 0.04,
+      "mse": 0.000540552893653512
+    },
+    {
+      "threshold": 0.02,
+      "softness": 0.005,
+      "mse": 0.0006229482241906226
+    },
+    {
+      "threshold": 0.02,
+      "softness": 0.01,
+      "mse": 0.0005945171578787267
+    },
+    {
+      "threshold": 0.02,
+      "softness": 0.02,
+      "mse": 0.0005484335124492645
+    },
+    {
+      "threshold": 0.02,
+      "softness": 0.04,
+      "mse": 0.0004992450121790171
+    },
+    {
+      "threshold": 0.03,
+      "softness": 0.005,
+      "mse": 0.0005766858230344951
+    },
+    {
+      "threshold": 0.03,
+      "softness": 0.01,
+      "mse": 0.0005511848721653223
+    },
+    {
+      "threshold": 0.03,
+      "softness": 0.02,
+      "mse": 0.0005146171897649765
+    },
+    {
+      "threshold": 0.03,
+      "softness": 0.04,
+      "mse": 0.0004789958184119314
+    },
+    {
+      "threshold": 0.04,
+      "softness": 0.005,
+      "mse": 0.0005271368427202106
+    },
+    {
+      "threshold": 0.04,
+      "softness": 0.01,
+      "mse": 0.0005069972248747945
+    },
+    {
+      "threshold": 0.04,
+      "softness": 0.02,
+      "mse": 0.0004817381559405476
+    },
+    {
+      "threshold": 0.04,
+      "softness": 0.04,
+      "mse": 0.00046011843369342387
+    },
+    {
+      "threshold": 0.05,
+      "softness": 0.005,
+      "mse": 0.00048318272456526756
+    },
+    {
+      "threshold": 0.05,
+      "softness": 0.01,
+      "mse": 0.00046819113777019083
+    },
+    {
+      "threshold": 0.05,
+      "softness": 0.02,
+      "mse": 0.00045261988998390734
+    },
+    {
+      "threshold": 0.05,
+      "softness": 0.04,
+      "mse": 0.0004434038419276476
+    },
+    {
+      "threshold": 0.06,
+      "softness": 0.005,
+      "mse": 0.00044941241503693163
+    },
+    {
+      "threshold": 0.06,
+      "softness": 0.01,
+      "mse": 0.00043830336653627455
+    },
+    {
+      "threshold": 0.06,
+      "softness": 0.02,
+      "mse": 0.0004292497178539634
+    },
+    {
+      "threshold": 0.06,
+      "softness": 0.04,
+      "mse": 0.00042953199590556324
+    },
+    {
+      "threshold": 0.08,
+      "softness": 0.005,
+      "mse": 0.00041574990609660745
+    },
+    {
+      "threshold": 0.08,
+      "softness": 0.01,
+      "mse": 0.00040774018270894885
+    },
+    {
+      "threshold": 0.08,
+      "softness": 0.02,
+      "mse": 0.0004027874383609742
+    },
+    {
+      "threshold": 0.08,
+      "softness": 0.04,
+      "mse": 0.0004122586688026786
+    },
+    {
+      "threshold": 0.1,
+      "softness": 0.005,
+      "mse": 0.0004177160153631121
+    },
+    {
+      "threshold": 0.1,
+      "softness": 0.01,
+      "mse": 0.0004092648741789162
+    },
+    {
+      "threshold": 0.1,
+      "softness": 0.02,
+      "mse": 0.00040190506842918694
+    },
+    {
+      "threshold": 0.1,
+      "softness": 0.04,
+      "mse": 0.0004106365086045116
+    }
+  ]
+}

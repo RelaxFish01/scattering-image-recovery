@@ -1,0 +1,23 @@
+{
+  "method": "Frozen global ridge layer plus trained six-layer residual CNN",
+  "validation": {
+    "mse": 0.00023990633781068027,
+    "psnr_mean_db": 37.072288513183594,
+    "count": 5000,
+    "ssim_mean": 0.993646856222729
+  },
+  "holdout": {
+    "mse": 0.0002410761808278039,
+    "psnr_mean_db": 37.01720428466797,
+    "count": 5000,
+    "ssim_mean": 0.9936843430175484
+  },
+  "selected_epoch": 24,
+  "diagnostic": {
+    "train_raw_mse": 0.0005052211927250028,
+    "validation_raw_mse": 0.0010678792605176568,
+    "noise_sigma_match": 0.023720414578852832
+  },
+  "seconds": 57.28548622131348,
+  "test_ground_truth_available": false
+}

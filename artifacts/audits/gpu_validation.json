@@ -1,0 +1,31 @@
+{
+  "torch": "2.14.0+cu130",
+  "torch_file": "C:\\Users\\19375\\Desktop\\NEU documents\\26秋学期智能感知与计算成像\\.recovery-venv\\Lib\\site-packages\\torch\\__init__.py",
+  "cuda_runtime": "13.0",
+  "cuda_available": true,
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "capability": [
+    12,
+    0
+  ],
+  "architectures": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "matrix_loss": 128.05892944335938,
+  "matrix_gradient_finite": true,
+  "matrix_seconds": 0.17784749999918859,
+  "convolution_output": [
+    2,
+    8,
+    64,
+    64
+  ],
+  "convolution_gradient_finite": true
+}

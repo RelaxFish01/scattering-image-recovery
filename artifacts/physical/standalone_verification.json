@@ -1,0 +1,14 @@
+{
+  "source": "Original test.mat read directly by scipy.io.loadmat, not test_Y.npy",
+  "reference": "test_recovered.npy",
+  "independent_cli_result": "standalone_verified.npy",
+  "maximum_absolute_pixel_difference": 2.6999470037480933e-07,
+  "mse": 4.1904824777544165e-15,
+  "per_image_maximum_absolute_difference": [
+    2.5338377440675686e-07,
+    2.318845986337692e-07,
+    2.419157851818454e-07,
+    2.6999470037480933e-07
+  ],
+  "withheld_measurements_excluded_from_initialization_and_normalization": true
+}

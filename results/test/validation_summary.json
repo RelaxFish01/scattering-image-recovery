@@ -1,0 +1,570 @@
+{
+  "ridge": {
+    "method": "Normalized global ridge inversion",
+    "features": 12544,
+    "transform": "intensity",
+    "validation": [
+      {
+        "mse": 0.000699356256518513,
+        "psnr_mean_db": 32.2622184753418,
+        "ssim_mean": 0.680982659462376,
+        "count": 5000,
+        "regularization": 1.0
+      },
+      {
+        "mse": 0.0006964443600736558,
+        "psnr_mean_db": 32.278743743896484,
+        "ssim_mean": 0.6820620237689132,
+        "count": 5000,
+        "regularization": 10.0
+      },
+      {
+        "mse": 0.0006743075209669769,
+        "psnr_mean_db": 32.4052734375,
+        "ssim_mean": 0.691127845292727,
+        "count": 5000,
+        "regularization": 100.0
+      }
+    ],
+    "holdout": {
+      "mse": 0.0006751452456228435,
+      "psnr_mean_db": 32.359249114990234,
+      "ssim_mean": 0.6912545148081981,
+      "count": 5000
+    },
+    "selected_regularization": 100.0,
+    "test_ground_truth_available": false,
+    "seconds": 32.46584391593933
+  },
+  "ridge_shrinkage": {
+    "method": "Validation-selected sigmoid intensity shrinkage after ridge",
+    "parameters": {
+      "threshold": 0.1,
+      "softness": 0.02
+    },
+    "validation": {
+      "mse": 0.00040190506842918694,
+      "psnr_mean_db": 34.76853561401367,
+      "ssim_mean": 0.9828549724178806,
+      "count": 5000
+    },
+    "holdout": {
+      "mse": 0.00040168437408283353,
+      "psnr_mean_db": 34.73537063598633,
+      "ssim_mean": 0.9826395231593739,
+      "count": 5000
+    },
+    "parameter_search": [
+      {
+        "threshold": 0,
+        "softness": 0.005,
+        "mse": 0.0006699885707348585
+      },
+      {
+        "threshold": 0,
+        "softness": 0.01,
+        "mse": 0.0006531208637170494
+      },
+      {
+        "threshold": 0,
+        "softness": 0.02,
+        "mse": 0.000607294321525842
+      },
+      {
+        "threshold": 0,
+        "softness": 0.04,
+        "mse": 0.000540552893653512
+      },
+      {
+        "threshold": 0.02,
+        "softness": 0.005,
+        "mse": 0.0006229482241906226
+      },
+      {
+        "threshold": 0.02,
+        "softness": 0.01,
+        "mse": 0.0005945171578787267
+      },
+      {
+        "threshold": 0.02,
+        "softness": 0.02,
+        "mse": 0.0005484335124492645
+      },
+      {
+        "threshold": 0.02,
+        "softness": 0.04,
+        "mse": 0.0004992450121790171
+      },
+      {
+        "threshold": 0.03,
+        "softness": 0.005,
+        "mse": 0.0005766858230344951
+      },
+      {
+        "threshold": 0.03,
+        "softness": 0.01,
+        "mse": 0.0005511848721653223
+      },
+      {
+        "threshold": 0.03,
+        "softness": 0.02,
+        "mse": 0.0005146171897649765
+      },
+      {
+        "threshold": 0.03,
+        "softness": 0.04,
+        "mse": 0.0004789958184119314
+      },
+      {
+        "threshold": 0.04,
+        "softness": 0.005,
+        "mse": 0.0005271368427202106
+      },
+      {
+        "threshold": 0.04,
+        "softness": 0.01,
+        "mse": 0.0005069972248747945
+      },
+      {
+        "threshold": 0.04,
+        "softness": 0.02,
+        "mse": 0.0004817381559405476
+      },
+      {
+        "threshold": 0.04,
+        "softness": 0.04,
+        "mse": 0.00046011843369342387
+      },
+      {
+        "threshold": 0.05,
+        "softness": 0.005,
+        "mse": 0.00048318272456526756
+      },
+      {
+        "threshold": 0.05,
+        "softness": 0.01,
+        "mse": 0.00046819113777019083
+      },
+      {
+        "threshold": 0.05,
+        "softness": 0.02,
+        "mse": 0.00045261988998390734
+      },
+      {
+        "threshold": 0.05,
+        "softness": 0.04,
+        "mse": 0.0004434038419276476
+      },
+      {
+        "threshold": 0.06,
+        "softness": 0.005,
+        "mse": 0.00044941241503693163
+      },
+      {
+        "threshold": 0.06,
+        "softness": 0.01,
+        "mse": 0.00043830336653627455
+      },
+      {
+        "threshold": 0.06,
+        "softness": 0.02,
+        "mse": 0.0004292497178539634
+      },
+      {
+        "threshold": 0.06,
+        "softness": 0.04,
+        "mse": 0.00042953199590556324
+      },
+      {
+        "threshold": 0.08,
+        "softness": 0.005,
+        "mse": 0.00041574990609660745
+      },
+      {
+        "threshold": 0.08,
+        "softness": 0.01,
+        "mse": 0.00040774018270894885
+      },
+      {
+        "threshold": 0.08,
+        "softness": 0.02,
+        "mse": 0.0004027874383609742
+      },
+      {
+        "threshold": 0.08,
+        "softness": 0.04,
+        "mse": 0.0004122586688026786
+      },
+      {
+        "threshold": 0.1,
+        "softness": 0.005,
+        "mse": 0.0004177160153631121
+      },
+      {
+        "threshold": 0.1,
+        "softness": 0.01,
+        "mse": 0.0004092648741789162
+      },
+      {
+        "threshold": 0.1,
+        "softness": 0.02,
+        "mse": 0.00040190506842918694
+      },
+      {
+        "threshold": 0.1,
+        "softness": 0.04,
+        "mse": 0.0004106365086045116
+      }
+    ]
+  },
+  "neural": {
+    "method": "Frozen global ridge layer plus trained six-layer residual CNN",
+    "validation": {
+      "mse": 0.00023990633781068027,
+      "psnr_mean_db": 37.072288513183594,
+      "count": 5000,
+      "ssim_mean": 0.993646856222729
+    },
+    "holdout": {
+      "mse": 0.0002410761808278039,
+      "psnr_mean_db": 37.01720428466797,
+      "count": 5000,
+      "ssim_mean": 0.9936843430175484
+    },
+    "selected_epoch": 24,
+    "diagnostic": {
+      "train_raw_mse": 0.0005052211927250028,
+      "validation_raw_mse": 0.0010678792605176568,
+      "noise_sigma_match": 0.023720414578852832
+    },
+    "seconds": 57.28548622131348,
+    "test_ground_truth_available": false
+  },
+  "physical": {
+    "method": "calibrated complex transmission matrix plus amplitude least squares",
+    "calibrated_detector_count": 3439,
+    "calibration_error_threshold": 1e-11,
+    "fit_detector_count": 2927,
+    "withheld_detector_count": 512,
+    "holdout_ridge": {
+      "n": 256,
+      "mse": 0.0006348611452943022,
+      "psnr_mean_db": 32.6869515169425,
+      "ssim_mean": 0.6965756843748361,
+      "maximum_absolute_error": 0.4344256818294525
+    },
+    "ridge_baseline_note": "Uses all measurement pixels for baseline comparison; not passed to physical reconstruction as initialization.",
+    "holdout_physics": {
+      "n": 256,
+      "mse": 1.2519518296729304e-14,
+      "psnr_mean_db": 139.86856984555305,
+      "ssim_mean": 0.999999999973503,
+      "maximum_absolute_error": 1.787396399777208e-06
+    },
+    "holdout_fit_measurement_relative_mse_quantiles": [
+      2.605223979254556e-13,
+      3.905143894887553e-13,
+      4.665774331561595e-13,
+      6.348766727181515e-13,
+      1.457740352039938e-11
+    ],
+    "holdout_withheld_measurement_relative_mse_quantiles": [
+      2.5727700135244613e-13,
+      4.383259299143086e-13,
+      5.416752929445628e-13,
+      7.272219529038185e-13,
+      1.808573603379049e-11
+    ],
+    "test_fit_measurement_relative_mse": [
+      1.0096486363977974e-12,
+      5.445314880427043e-13,
+      5.493850816981616e-13,
+      7.00065764906721e-13
+    ],
+    "test_withheld_measurement_relative_mse": [
+      1.3527942871807697e-12,
+      7.620087286858146e-13,
+      6.259443375948581e-13,
+      7.598970281144646e-13
+    ],
+    "elapsed_seconds": 2.0273685455322266,
+    "test_ground_truth_available": false,
+    "residuals_evaluated_after_final_clipping": true,
+    "withheld_measurements_excluded_from_initialization_and_normalization": true,
+    "normalization": "mean of all non-withheld detector measurements, multiplied by 12544",
+    "initialization": "withheld measurements replaced by non-withheld measurement mean before ridge initialization"
+  },
+  "calibration": {
+    "detectors": 4096,
+    "train": 10000,
+    "validation": 1000,
+    "input_dimensions": 784,
+    "good_1e-8": 3703,
+    "good_1e-6": 3723,
+    "seconds": 72.09286594390869,
+    "batches": [
+      {
+        "detector_start": 0,
+        "detector_end": 256,
+        "seconds": 4.919189453125,
+        "validation_error_quantiles": [
+          7.942291843730104e-14,
+          1.1056746440456493e-13,
+          1.3425967558848215e-13,
+          6.615263350127909e-13,
+          6.454822440438157e-11,
+          0.11723100394010544
+        ],
+        "good_1e-8": 235,
+        "good_1e-6": 236,
+        "elapsed": 6.081004619598389
+      },
+      {
+        "detector_start": 256,
+        "detector_end": 512,
+        "seconds": 3.8801136016845703,
+        "validation_error_quantiles": [
+          9.35379974430911e-14,
+          1.2524151908697295e-13,
+          2.267645435576754e-13,
+          7.0145158128157026e-12,
+          4.928040652885102e-05,
+          0.14689810574054718
+        ],
+        "good_1e-8": 226,
+        "good_1e-6": 228,
+        "elapsed": 9.96511697769165
+      },
+      {
+        "detector_start": 512,
+        "detector_end": 768,
+        "seconds": 3.95253324508667,
+        "validation_error_quantiles": [
+          1.096350522302933e-13,
+          1.4376783048558259e-13,
+          2.0476843961766966e-13,
+          2.4068535792870493e-12,
+          3.6921308232962247e-09,
+          0.10295826941728592
+        ],
+        "good_1e-8": 231,
+        "good_1e-6": 232,
+        "elapsed": 13.92130994796753
+      },
+      {
+        "detector_start": 768,
+        "detector_end": 1024,
+        "seconds": 3.5950520038604736,
+        "validation_error_quantiles": [
+          8.560165786928794e-14,
+          1.2694033853038154e-13,
+          2.1941279901901284e-13,
+          1.7453095826208687e-11,
+          2.9916350285930093e-06,
+          0.12942537665367126
+        ],
+        "good_1e-8": 228,
+        "good_1e-6": 230,
+        "elapsed": 17.519994497299194
+      },
+      {
+        "detector_start": 1024,
+        "detector_end": 1280,
+        "seconds": 3.7301790714263916,
+        "validation_error_quantiles": [
+          7.283220928482395e-14,
+          1.1254664497725112e-13,
+          1.4051781927707646e-13,
+          1.1599002465965957e-12,
+          5.414247383761506e-10,
+          0.19502989947795868
+        ],
+        "good_1e-8": 232,
+        "good_1e-6": 233,
+        "elapsed": 21.253276348114014
+      },
+      {
+        "detector_start": 1280,
+        "detector_end": 1536,
+        "seconds": 3.7837440967559814,
+        "validation_error_quantiles": [
+          7.77771740783674e-14,
+          1.1592231013535063e-13,
+          1.5284986004757833e-13,
+          2.689217175767117e-12,
+          2.37422091231565e-06,
+          0.17861945927143097
+        ],
+        "good_1e-8": 227,
+        "good_1e-6": 230,
+        "elapsed": 25.04124164581299
+      },
+      {
+        "detector_start": 1536,
+        "detector_end": 1792,
+        "seconds": 4.986799955368042,
+        "validation_error_quantiles": [
+          7.346915095610487e-14,
+          9.631655180722138e-14,
+          1.0953799580706511e-13,
+          1.3613181491355791e-13,
+          1.5988228969920915e-11,
+          0.13999146223068237
+        ],
+        "good_1e-8": 237,
+        "good_1e-6": 238,
+        "elapsed": 30.031569004058838
+      },
+      {
+        "detector_start": 1792,
+        "detector_end": 2048,
+        "seconds": 4.6311562061309814,
+        "validation_error_quantiles": [
+          7.861845397784395e-14,
+          1.173024012451028e-13,
+          1.4203815532597142e-13,
+          5.143387885736539e-13,
+          1.2531420900963042e-09,
+          0.16008427739143372
+        ],
+        "good_1e-8": 231,
+        "good_1e-6": 232,
+        "elapsed": 34.66622710227966
+      },
+      {
+        "detector_start": 2048,
+        "detector_end": 2304,
+        "seconds": 3.9762699604034424,
+        "validation_error_quantiles": [
+          8.548633263945338e-14,
+          1.1907487189734105e-13,
+          1.4156570745304728e-13,
+          3.9965851673018013e-13,
+          9.68212157204107e-06,
+          0.08270318061113358
+        ],
+        "good_1e-8": 227,
+        "good_1e-6": 228,
+        "elapsed": 38.64648699760437
+      },
+      {
+        "detector_start": 2304,
+        "detector_end": 2560,
+        "seconds": 4.523004770278931,
+        "validation_error_quantiles": [
+          8.366288076818579e-14,
+          1.1475625408697426e-13,
+          1.4426190141558423e-13,
+          7.596301653022344e-13,
+          2.507598856027471e-05,
+          0.18420995771884918
+        ],
+        "good_1e-8": 228,
+        "good_1e-6": 228,
+        "elapsed": 43.17328906059265
+      },
+      {
+        "detector_start": 2560,
+        "detector_end": 2816,
+        "seconds": 4.127349138259888,
+        "validation_error_quantiles": [
+          7.3925620399512e-14,
+          1.1048415871420247e-13,
+          1.3197213775354572e-13,
+          5.158510879739453e-13,
+          6.9859994525356406e-12,
+          1.038094162940979
+        ],
+        "good_1e-8": 238,
+        "good_1e-6": 239,
+        "elapsed": 47.30314755439758
+      },
+      {
+        "detector_start": 2816,
+        "detector_end": 3072,
+        "seconds": 4.262275457382202,
+        "validation_error_quantiles": [
+          6.91754867363642e-14,
+          1.1048034876000572e-13,
+          1.4802636655493473e-13,
+          3.1842243143447024e-12,
+          7.118963549146429e-05,
+          0.13456521928310394
+        ],
+        "good_1e-8": 226,
+        "good_1e-6": 227,
+        "elapsed": 51.56893181800842
+      },
+      {
+        "detector_start": 3072,
+        "detector_end": 3328,
+        "seconds": 5.089911699295044,
+        "validation_error_quantiles": [
+          7.465356729064593e-14,
+          1.0598780289831564e-13,
+          1.2497824769443916e-13,
+          2.944783495826761e-13,
+          2.7280069696267173e-11,
+          0.2086750715970993
+        ],
+        "good_1e-8": 235,
+        "good_1e-6": 236,
+        "elapsed": 56.66384983062744
+      },
+      {
+        "detector_start": 3328,
+        "detector_end": 3584,
+        "seconds": 6.010252237319946,
+        "validation_error_quantiles": [
+          7.006204562906918e-14,
+          1.0246405605224534e-13,
+          1.2093123946893894e-13,
+          1.504163106731942e-13,
+          4.366555207691025e-11,
+          0.0860963985323906
+        ],
+        "good_1e-8": 234,
+        "good_1e-6": 235,
+        "elapsed": 62.67731976509094
+      },
+      {
+        "detector_start": 3584,
+        "detector_end": 3840,
+        "seconds": 4.907031774520874,
+        "validation_error_quantiles": [
+          7.783259036190857e-14,
+          1.087162298526274e-13,
+          1.7896249667739492e-13,
+          6.605108495739975e-12,
+          1.3855537828177944e-09,
+          0.15680857002735138
+        ],
+        "good_1e-8": 233,
+        "good_1e-6": 234,
+        "elapsed": 67.5889003276825
+      },
+      {
+        "detector_start": 3840,
+        "detector_end": 4096,
+        "seconds": 4.475382328033447,
+        "validation_error_quantiles": [
+          9.486707345249604e-14,
+          1.359047660379805e-13,
+          1.7182330319838457e-13,
+          1.5184830931720683e-12,
+          2.6068893571595808e-11,
+          0.13985370099544525
+        ],
+        "good_1e-8": 235,
+        "good_1e-6": 237,
+        "elapsed": 72.06773447990417
+      }
+    ]
+  },
+  "duplicates": {
+    "validation": 0,
+    "holdout": 0,
+    "train_unique_count": 40000,
+    "train_count": 40000
+  }
+}

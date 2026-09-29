@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Scattering Image Recovery: Assignment Solution and Reproducible Experiments"
+message: "If this repository contributes to your work, please cite it."
+type: software
+authors:
+  - family-names: "RelaxFish01"
+    given-names: ""
+repository-code: "https://github.com/RelaxFish01/scattering-image-recovery"
+version: "1.0.0"
+date-released: "2026-09-29"
+abstract: "Reproducible reconstruction of 28 x 28 images from 112 x 112 scattering-intensity measurements using a calibrated complex transmission model."
+keywords:
+  - computational imaging
+  - scattering imaging
+  - inverse problems
+  - transmission matrix

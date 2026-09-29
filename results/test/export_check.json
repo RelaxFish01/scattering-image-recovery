@@ -1,0 +1,87 @@
+{
+  "shape": [
+    4,
+    28,
+    28
+  ],
+  "dtype": "float32",
+  "finite": true,
+  "range": [
+    0.0,
+    1.0
+  ],
+  "npy_preserves_prediction_exactly": true,
+  "mat_roundtrip_exact": true,
+  "source_prediction": "C:\\Users\\19375\\Desktop\\NEU documents\\26秋学期智能感知与计算成像\\test恢复研究\\physical_recovery\\test_recovered.npy",
+  "test_ground_truth_in_supplied_test_file": false,
+  "recovered_overview.png": {
+    "size": [
+      1968,
+      610
+    ],
+    "mode": "RGB"
+  },
+  "speckle_vs_recovered.png": {
+    "size": [
+      1968,
+      1192
+    ],
+    "mode": "RGB"
+  },
+  "test_01_recovered_28px.png": {
+    "size": [
+      28,
+      28
+    ],
+    "mode": "L"
+  },
+  "test_01_recovered_448px.png": {
+    "size": [
+      448,
+      448
+    ],
+    "mode": "L"
+  },
+  "test_02_recovered_28px.png": {
+    "size": [
+      28,
+      28
+    ],
+    "mode": "L"
+  },
+  "test_02_recovered_448px.png": {
+    "size": [
+      448,
+      448
+    ],
+    "mode": "L"
+  },
+  "test_03_recovered_28px.png": {
+    "size": [
+      28,
+      28
+    ],
+    "mode": "L"
+  },
+  "test_03_recovered_448px.png": {
+    "size": [
+      448,
+      448
+    ],
+    "mode": "L"
+  },
+  "test_04_recovered_28px.png": {
+    "size": [
+      28,
+      28
+    ],
+    "mode": "L"
+  },
+  "test_04_recovered_448px.png": {
+    "size": [
+      448,
+      448
+    ],
+    "mode": "L"
+  }
+}

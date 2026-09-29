@@ -1,0 +1,54 @@
+{
+  "method": "calibrated complex transmission matrix plus amplitude least squares",
+  "calibrated_detector_count": 3439,
+  "calibration_error_threshold": 1e-11,
+  "fit_detector_count": 2927,
+  "withheld_detector_count": 512,
+  "holdout_ridge": {
+    "n": 256,
+    "mse": 0.0006348611452943022,
+    "psnr_mean_db": 32.6869515169425,
+    "ssim_mean": 0.6965756843748361,
+    "maximum_absolute_error": 0.4344256818294525
+  },
+  "ridge_baseline_note": "Uses all measurement pixels for baseline comparison; not passed to physical reconstruction as initialization.",
+  "holdout_physics": {
+    "n": 256,
+    "mse": 1.2519518296729304e-14,
+    "psnr_mean_db": 139.86856984555305,
+    "ssim_mean": 0.999999999973503,
+    "maximum_absolute_error": 1.787396399777208e-06
+  },
+  "holdout_fit_measurement_relative_mse_quantiles": [
+    2.605223979254556e-13,
+    3.905143894887553e-13,
+    4.665774331561595e-13,
+    6.348766727181515e-13,
+    1.457740352039938e-11
+  ],
+  "holdout_withheld_measurement_relative_mse_quantiles": [
+    2.5727700135244613e-13,
+    4.383259299143086e-13,
+    5.416752929445628e-13,
+    7.272219529038185e-13,
+    1.808573603379049e-11
+  ],
+  "test_fit_measurement_relative_mse": [
+    1.0096486363977974e-12,
+    5.445314880427043e-13,
+    5.493850816981616e-13,
+    7.00065764906721e-13
+  ],
+  "test_withheld_measurement_relative_mse": [
+    1.3527942871807697e-12,
+    7.620087286858146e-13,
+    6.259443375948581e-13,
+    7.598970281144646e-13
+  ],
+  "elapsed_seconds": 2.0273685455322266,
+  "test_ground_truth_available": false,
+  "residuals_evaluated_after_final_clipping": true,
+  "withheld_measurements_excluded_from_initialization_and_normalization": true,
+  "normalization": "mean of all non-withheld detector measurements, multiplied by 12544",
+  "initialization": "withheld measurements replaced by non-withheld measurement mean before ridge initialization"
+}

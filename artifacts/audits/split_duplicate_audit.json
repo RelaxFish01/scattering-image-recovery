@@ -1,0 +1,6 @@
+{
+  "validation": 0,
+  "holdout": 0,
+  "train_unique_count": 40000,
+  "train_count": 40000
+}

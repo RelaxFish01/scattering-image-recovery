@@ -1,0 +1,14 @@
+name: scattering-image-recovery
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - h5py
+  - pillow
+  - scikit-image
+  - pytorch
+  - pytorch-cuda=13.0

@@ -1,0 +1,8 @@
+{
+  "truth_source": "Original Train.mat X float64, transpose each HDF5 sample",
+  "n": 256,
+  "mse": 1.2495854743582688e-14,
+  "psnr_mean_db": 139.8786790293354,
+  "max_absolute_error": 1.787396399777208e-06,
+  "eight_bit_pixels_exact_match_fraction": 0.9999900350765306
+}
